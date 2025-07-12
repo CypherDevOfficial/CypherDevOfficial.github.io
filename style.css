@@ -1,17 +1,16 @@
 body {
-    background-color: #a0d2eb;
+    background-color: black;
     text-align: center;
-    color: navy ;
+    color: white; ;
     font-family: 'Fira Code';font-size: 22px;
     font-size:medium;
-        
-    
+           
 }
 
 p {
-    font-size: 18px;
-    color: navy;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: white;
+    font-family:monospace;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -27,8 +26,6 @@ footer {
 
 
 
-
-
 button {
     border-radius: 10px;
         padding: 10px 20px;
@@ -41,9 +38,9 @@ button {
 #heading {
     text-align: center;
     font-size: 50px;
-    color: navy;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 50px
+    margin-top: 50px;
 }
 
 #trombone-img {
@@ -58,7 +55,7 @@ button {
     margin-top: 50px;
     margin-bottom: 50px;
     font-size: large;
-    color: navy;
+    color: white
 }
 
 .circle-logo {
@@ -66,11 +63,6 @@ button {
   text-align: left;
 };
 
-.logo-dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
   #logo-button {
     width: 60px;
     height: 60px;
@@ -86,3 +78,31 @@ button {
     margin: 20px 0;
 
   }
+
+    #vanta-bg {
+      width: 100vw;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 0;
+    }
+    .wrapper {
+      position: relative;
+      z-index: 1;
+      padding: 20px;
+      color: white;
+    }
+    nav button {
+      background-color: #333;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      margin: 5px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    nav button:hover {
+      background-color: #555;
+    }
