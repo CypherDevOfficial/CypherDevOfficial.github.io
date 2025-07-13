@@ -1,16 +1,15 @@
 body {
     background-color: black;
     text-align: center;
-    color: white; ;
-    font-family: 'Fira Code';font-size: 22px;
-    font-size:medium;
-           
+    color: white;
+    font-family: 'Fira Code';
+    font-size: 22px;
 }
 
 p {
     font-size: 28px;
     color: white;
-    font-family:monospace;
+    font-family: monospace;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -24,15 +23,13 @@ footer {
     font-size: small;
 }
 
-
-
 button {
     border-radius: 10px;
-        padding: 10px 20px;
-        border: none;
-        background-color: rgb(2, 2, 82);
-        color: white;
-        cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(2, 2, 82);
+    color: white;
+    cursor: pointer;
 }
 
 #heading {
@@ -47,62 +44,67 @@ button {
     width: 700px;
     height: 350px;
     margin-top: 50px;
-    margin-bottom: 50px;   
-    border-radius: 20px; 
+    margin-bottom: 50px;
+    border-radius: 20px;
 }
 
 #main {
     margin-top: 50px;
     margin-bottom: 50px;
     font-size: large;
-    color: white
+    color: white;
 }
 
 .circle-logo {
     border-radius: 50%;
-  text-align: left;
-};
+    text-align: left;
+}
 
-  #logo-button {
-    width: 60px;
-    height: 60px;
-    cursor: pointer;
+#logo-button {
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-  }
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+}
 
-  hr {
+hr {
     border: 0;
     height: 1px;
     background-color: #000000;
     font-weight: 500;
     margin: 20px 0;
+}
 
-  }
+#vanta-bg {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
 
-    #vanta-bg {
-      width: 100vw;
-      height: 100vh;
-      position: fixed;
-      top: 0;
-      left: 0;
-      z-index: 0;
-    }
-    .wrapper {
-      position: relative;
-      z-index: 1;
-      padding: 20px;
-      color: white;
-    }
-    nav button {
-      background-color: #333;
-      color: white;
-      border: none;
-      padding: 10px 15px;
-      margin: 5px;
-      cursor: pointer;
-      border-radius: 5px;
-    }
+.wrapper {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    color: white;
+}
 
-    nav button:hover {
-      background-color: #555;
-    }
+nav button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+nav button:hover {
+    background-color: #555;
+}
